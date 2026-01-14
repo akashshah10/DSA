@@ -16,7 +16,7 @@ int mostWater(vector<int> &height)
         int currWater = width * ht;
         maxWater = max(currWater, maxWater);
 
-        height[lp] < height[rp] ? lp++ : rp--;
+        height[lp] < height[rp] ? lp++ : rp--;  //Ternary stetement to change the deciding pointer(minimum pointer)
     }
     return maxWater;
 }
