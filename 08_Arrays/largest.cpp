@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <iostream>
 #include <climits>
 
@@ -15,22 +14,4 @@ int main()
     }
     cout << largest << endl;
     return 0;
-=======
-#include <iostream>
-#include <climits>
-
-using namespace std;
-
-int main()
-{
-    int size = 5;
-    int num[] = {6, 2, 3, 4, 5};
-    int largest = INT_MIN;
-    for (int i = 0; i < size; i++)
-    {
-        largest = max(num[i], largest);
-    }
-    cout << "largest: " << largest << endl;
-    return 0;
->>>>>>> 299e1a5 (DSA)
 }

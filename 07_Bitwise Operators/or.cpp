@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <iostream>
 using namespace std;
 
@@ -8,14 +7,3 @@ int main()
     cout << (a | b) << endl;
     return 0;
 }
-=======
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    int a = 4, b = 8;
-    cout << (a | b) << endl;
-    return 0;
-}
->>>>>>> 299e1a5 (DSA)
