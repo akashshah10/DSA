@@ -27,9 +27,13 @@ int binarySearch(vector<int> arr, int tar)
 
 int main()
 {
-    vector<int> arr1 = {-1, 0, 3, 4, 5, 9, 12};
-    int tar = 12;
-    cout << binarySearch(arr1, tar) << endl;
+    vector<int> arr1 = {-1, 0, 3, 4, 5, 9, 12};  //Odd size array
+    int tar1 = 12;
+    cout << binarySearch(arr1, tar1) << endl;
+
+    vector<int> arr2 = {-1, 0 ,5 , 6, 9, 28}; //Even size array
+    int tar2 = 9;
+    cout << binarySearch(arr2, tar2);
 
     return 0;
 }
